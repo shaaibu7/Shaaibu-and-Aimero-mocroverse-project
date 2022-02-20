@@ -1,5 +1,100 @@
+body{
+
+background-color: palevioletred;
+}
 #survey-form{
+    margin-left: 300px;
     display: flex;
     flex-direction: column;
+    background-color: plum;
+    align-content: center;
+    align-self: center;
+    margin-right: 300px;
+    padding-top: 10px;
     
+    
+}
+#survey-form >label{
+    justify-self: start;
+    text-align: right;
+}
+input{
+    justify-self: start;
+}
+#nav-div{
+    justify-self: start;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+h1{
+    display: flex;
+    align-self: center;
+    align-content: center;
+}
+#description{
+    display: flex;
+    align-self: center;
+    align-content: center;
+}
+#dropdown-label{
+    justify-self: start;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+select{
+    width: 100%;
+}
+#labelsss{
+    display: flex;
+    justify-self: start;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+#items{
+    display: flex;
+    justify-context: start;
+    text-align: left;
+    margin-top: 15px;
+    padding-left: 15px;
+    flex-direction: column;
+}
+#checkbox{
+    display: flex;
+    justify-content: start;
+    text-align: left;
+    margin-top: 15px;
+    padding-left: 15px;
+    flex-direction: column;
+}
+#fotter{
+    display: flex;
+    justify-content: start;
+    text-align: left;
+    margin-top: 15px;
+    padding-left: 15px;
+    flex-direction: column;
+}
+textarea{
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+button{
+    width: 90%;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+    background-color: green;
+}
+button:hover{
+    cursor: pointer;
+}
+select{
+    width: 50%;
+    margin: 15px;
 }

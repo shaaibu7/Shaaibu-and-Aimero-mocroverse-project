@@ -14,27 +14,36 @@
        <p id="description" >
         Thank you for taking the time to help us improve the platform
        </p>
-      <label id="labelName" for="name">Name</label>
-      <input type="text" id="name" placeholder="enter your name">
-
-      <label id="labelEmail" for="email">Email</label>
-      <input type="email" id="email" placeholder="enter your email">
-      
-      <label id="labelNumber" for="number">Number</label>
+       <div id="nav-div">
+      <label id="name-label" for="name">Name </label><input type="text" id="name" placeholder="enter your name" required>
+    </div>
+       <div id="nav-div">
+      <label id="email-label" for="email">Email</label>
+      <input type="email" id="email" placeholder="enter your email" required>
+    </div>
+      <div id="nav-div">
+      <label id="number-label" for="number">Number</label>
       <input type="number" min="10"  max="100" id="number" placeholder="number">
-
-      <label for="dropdown">Will you recommend freecodecamp for a friend</label>
+     </div>
+      <div id="dropdown-label">
+      <label for="dropdown" >Will you recommend freecodecamp for a friend</label>
+    </div>
+    <div id="select-drop">
       <select id="dropdown">
         <option value="definitely">definitely</option>
         <option value="maybe">maybe</option>
         <option value="not sure">not sure</option>
          
       </select>
+    </div>
+    <div id="labelsss">
       <label id="label1">Which learning style do you prafer</label>
-
+      </div>
+      <div id="items">
       <label for="1">
       <input type="radio" name="Radio" value="student" id="1">Student
       </label>
+      
 
       <label for="2">
       <input type="radio" name="Radio" value="fulltime job" id="2">Fulltime job
@@ -47,9 +56,11 @@
       <label for="4">
       <input type="radio" name="Radio" value="Others" id="4">Others
       </label>
-
+     </div>
+     <div id="checkbox">
       <label>What would you like to see improved</label>
-      <div id="checkbox">
+    
+      
         <label for="a">
           <input type="checkbox" id="a" value="frontend project">frontend project
         </label>
@@ -70,11 +81,11 @@
           <input type="checkbox" id="e" value="opensource community">opensource community
         </label>
       </div>
-
+      <div id="fotter">
       <label for="">Any comment or suggestions</label>
-      <input type="textarea">
-
-      <input type="submit" id="submit">
+      <textarea placeholder="give us comment"  id="textArea" ></textarea>
+      <button id="submit" >Submit</button>
+    </div>
          
     
   
